@@ -1,0 +1,53 @@
+.font-bold {
+	font-weight: bold;
+}
+
+.sub-title {
+	background: #0000006b;
+	padding: 11px;
+	border-radius: 6px;
+}
+
+.color-white {
+	color: white;
+}
+
+.color-red {
+	color: red;
+}
+
+.arrow-down {
+	color: #ff0000;
+	font-size: 40px;
+}
+
+.trabajapoco-title {
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.label-suscribe {
+	font-size: 20px;
+	font-weight: normal;
+	color: red;
+}
+
+div#message_suscription {
+    font-size: 16px;
+    margin-top: 9px;
+    color: #2f477a;
+}
+
+.despues-de {
+	font-size: 22px;
+	padding-top: 1em;
+	color: red;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 0px)
+{
+	.fullContainer .containerInner {
+		width: 100% !important;
+		min-width: inherit;
+	}
+}
