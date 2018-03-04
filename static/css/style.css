@@ -44,10 +44,105 @@ div#message_suscription {
 	color: red;
 }
 
+#mc_embed_signup label {
+	color: #000 !important;
+}
+
+#mc_embed_signup {
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.parsley-error-list {
+	display: none;
+}
+
+#mce-error-response {
+	color: #0c0c0c;
+}
+
+#mc_embed_signup .button {
+    background-color: #1fc512 !important;
+}
+
+#mc_embed_signup .button::hover {
+    background-color: #19b00d !important;
+}
+
+.suscription_subtitutos {
+    font-size: 32px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.modal-content {
+	background: #ffa800 !important;
+}
+
+
+/*.snp-pop-3838 .snp-bld-step-1 {
+    width: 600px;
+    height: 420px;
+    background-image: url(http://demo.arscode.pro/ninja-popups/wp-content/uploads/sites/2/ninja-popups/bg97.png);
+    background-position: center center;
+    background-repeat: repeat;
+}
+
+.snp-builder, .snp-builder * {
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-transform: none;
+    background-image: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    border-spacing: 0;
+}
+
+.snp-bld-step-cont {
+    position: fixed;
+    z-index: 99999999;
+}
+
+*/
+
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.mc_embed_signup .button {
+    background-color: #1fc512 !important;
+    border: none;
+    padding: 13px 40px;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
 @media only screen and (max-width: 770px) and (min-width: 0px)
 {
 	.fullContainer .containerInner {
 		width: 100% !important;
 		min-width: inherit;
+	}
+}
+
+
+@media only screen and (max-width: 425px) and (min-width: 0px)
+{
+	.elButtonSize3, .elButtonSize4 {
+		padding: 5px;
 	}
 }
