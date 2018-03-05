@@ -346,9 +346,12 @@ $.extend($.validator.messages, {
 							</div>
 							<!-- usefull -->
 							<div class="elVideo" style="display: none;">
-								<div class="fluid-width-video-wrapper">
-									<iframe width="863" height="485" src="https://www.youtube.com/embed/xr32nbNc51U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								<div class="embed-responsive embed-responsive-16by9">
+	  								<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xr32nbNc51U" allowfullscreen></iframe>
 								</div>
+								<!-- <div class="fluid-width-video-wrapper">
+									<iframe width="863" height="485" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -417,14 +420,14 @@ $.extend($.validator.messages, {
 			<div class="dropZoneForSections ui-droppable" style="display: none;">
 				<div class="dropIconr"><i class="fa fa-plus"></i></div>
 			</div>
-			<div class="container noTopMargin padding40-top padding40-bottom padding40H  borderSolid cornersAll radius0 shadow0 bgNoRepeat activeSection_topBorder0 activeSection_bottomBorder0 fullContainer borderLightTop border1px emptySection" id="section-1207210000" data-title="Section" data-block-color="0074C7" style="border-color: rgba(47, 47, 47, 0.109804); padding-top: 60px; padding-bottom: 60px; outline: none; background-color: rgb(248, 248, 248);" data-trigger="none" data-animate="fade" data-delay="500">
+			<div class="noTopMargin padding40-top padding40-bottom padding40H  borderSolid cornersAll radius0 shadow0 bgNoRepeat activeSection_topBorder0 activeSection_bottomBorder0 fullContainer borderLightTop border1px emptySection" id="section-1207210000" data-title="Section" data-block-color="0074C7" style="border-color: rgba(47, 47, 47, 0.109804); padding-top: 60px; padding-bottom: 60px; outline: none; background-color: rgb(248, 248, 248);" data-trigger="none" data-animate="fade" data-delay="500">
 				<div class="containerInner ui-sortable">
 					<div class="row bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin" id="row--90893" data-trigger="none" data-animate="fade" data-delay="500" data-title="1 column row" style="margin-bottom: 0px; outline: none;">
 						<div id="col-full-133" class="col-md-12 innerContent col_left" data-col="full" data-trigger="none" data-animate="fade" data-delay="500" data-title="full column" style="outline: none;">
 							<div class="col-inner bgCover  noBorder borderSolid border3px cornersAll radius0 shadow0 P0-top P0-bottom P0H noTopMargin">
 								<div class="de ui-droppable de-editable" id="headline-57167" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="display: block; outline: none; cursor: pointer;" aria-disabled="false">
 									<div class="ne elHeadline hsSize3 elMargin0 elBGStyle0 hsTextShadow0 lh2" style="text-align: center; font-size: 50px;" data-bold="inherit" contenteditable="false">
-										<div>¿Quieres empezar a FULL ya mismo?</div>
+										<div class="quieres_empesar">¿Quieres empezar a FULL ya mismo?</div>
 									</div>
 								</div>
 								<div class="de ui-droppable de-editable" id="headline-38264" data-de-type="headline" data-de-editing="false" data-title="headline" data-ce="true" data-trigger="none" data-animate="fade" data-delay="500" style="margin-top: 20px; display: block; outline: none; cursor: pointer;" aria-disabled="false">
